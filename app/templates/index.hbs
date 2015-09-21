@@ -1,13 +1,15 @@
 <h1><img src="https://media.giphy.com/media/WMraWKJvK7Mly/giphy.gif" height="100" width="50">Welcome to Super Dentalz!<img src="https://media.giphy.com/media/WMraWKJvK7Mly/giphy.gif" height="100" width="50"></h1>
 
 
-<p>Super Dentalz fulfills all of your temporary toofbrush needs. Rent a brush, lend a brush.</p>
+<h4 class="center-head">Super Dentalz fulfills all of your temporary toofbrush needs.</h4>
+<h4 class="center-head">Rent a brush, lend a brush.</h4>
 
 <ul>
   {{#each model as |rental-brush|}}
     {{rental-tile rental=rental-brush destroyRental="destroyRental"}}
   {{/each}}
 </ul>
+
 
 {{new-rental save2="save3"}}
 

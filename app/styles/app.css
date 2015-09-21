@@ -1,13 +1,32 @@
 @import 'bootstrap.css';
 
+#ember429 {
+  background-color:black;
+  color: white;
+}
+
 html {
   font-family: 'antoniolight', sans-serif;
-  background: white;
+  background: black;
 }
 
 .container {
   width: 80%;
+  /*background-image: url("https://media.giphy.com/media/2iLxedcexsnIc/giphy.gif");*/
 }
+
 h1 {
   text-align: center;
+}
+.center-head {
+  text-align: center;
+}
+
+.listings {
+
+}
+
+ul {
+  list-style-image: url('http://lh3.googleusercontent.com/-noVfsxLZoZA/T0NcJRdWtOI/AAAAAAAADpk/20BWn-PqDJ4/s20/emoji-E404.png');
+
 }
