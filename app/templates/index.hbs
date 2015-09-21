@@ -1,0 +1,18 @@
+<div class="jumbotron">
+<h1>Welcome to Super Rentalz!</h1>
+</div>
+
+<p>Super Rentalz fulfills all of your temporary toofbrush needs. Rent a brush, lend a brush.</p>
+
+<ul>
+  {{#each model as |rental-brush|}}
+    {{rental-tile rental=rental-brush destroyRental="destroyRental"}}
+  {{/each}}
+</ul>
+
+{{new-rental save2="save3"}}
+
+{{#link-to 'about'}}About Super Rentalz{{/link-to}}<br>
+{{#link-to 'contact'}}Contact Us!!!{{/link-to}}
+
+{{outlet}}

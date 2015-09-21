@@ -1,0 +1,20 @@
+{"rentals": [{
+    "owner": "Stanley Steamer",
+    "type": "Electric (Complete Set)",
+    "condition": "Like New",
+    "bristles": "Soft",
+    "image": "http://www.ronitbaras.com/wp-content/uploads/2010/12/clip_image0022.jpg"
+  }, {
+    "owner": "Agatha Molar",
+    "type": "Traditional (Wooden)",
+    "condition": "Well-loved",
+    "bristles": "Extra hard",
+    "image": "https://nyfdentist.files.wordpress.com/2014/03/image6.jpg"
+  }, {
+    "owner": "River Frog-Spawn",
+    "type": "Traditional (Plastic)",
+    "condition": "Used",
+    "bristles": "Hard",
+    "image": "https://www.colourbox.com/preview/4942208-used-tooth-brush-on-a-blurred-background.jpg"
+  }]
+}
