@@ -1,0 +1,42 @@
+{{yield}}
+{{#if addNewBrushType}}
+  <h1>New Brush Type</h1>
+  <div>
+    <form>
+
+      <div class="form-group">
+        <label for="type">Type</label>
+        {{input value=type id="type"}}
+      </div>
+
+      <div class="form-group">
+        <label for="power">Power</label>
+        {{input value=power id="power"}}
+      </div>
+
+      <div class="form-group">
+        <label for="materials">Materials</label>
+        {{input value=materials id="materials"}}
+      </div>
+
+      <div class="form-group">
+        <label for="characteristics">Characteristics</label>
+        {{input value=characteristics id="characteristics"}}
+      </div>
+
+      <div class="form-group">
+        <label for="rating">Rating</label>
+        {{input value=rating id="rating"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button class="btn-xs btn-success" {{action 'brushsave1'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn-xs btn-success" {{action 'brushFormShow'}}>Add New Brush Type</button>
+{{/if}}

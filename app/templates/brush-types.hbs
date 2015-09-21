@@ -1,0 +1,18 @@
+<!-- {{outlet}} -->
+
+<h1>Brush type guide</h1>
+<p align="center"><img src="http://www.clipartbest.com/cliparts/LcK/ek5/LcKek5xki.gif"></p>
+
+
+  <dl class="center-head">
+
+    {{#each model as |brush-type|}}
+      {{brush-type-tile brush-type=brush-type}}
+    {{/each}}
+
+  </dl>
+
+
+{{new-brush-type brushsave2="brushsave3"}}
+
+{{#link-to 'index'}}Home{{/link-to}}

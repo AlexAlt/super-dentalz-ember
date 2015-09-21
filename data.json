@@ -16,5 +16,15 @@
     "condition": "Used",
     "bristles": "Hard",
     "image": "https://www.colourbox.com/preview/4942208-used-tooth-brush-on-a-blurred-background.jpg"
-  }]
+  }],
+
+   "brushTypes": [{
+    "type": "Electric",
+    "power": "Electric",
+    "materials": "Plastic, metal",
+    "characteristics": "Round or square brush head, charging station, often include timers and/or BlueTooth",
+    "rating": ":) :) :) :) :)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlVuN5QPYsssx85dSjQXbTGzyKOuDLKkL8Rrv9JGE4Zs33TBOVPA"
+    }]
+
 }

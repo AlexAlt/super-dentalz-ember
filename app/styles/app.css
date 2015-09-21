@@ -28,5 +28,13 @@ h1 {
 
 ul {
   list-style-image: url('http://lh3.googleusercontent.com/-noVfsxLZoZA/T0NcJRdWtOI/AAAAAAAADpk/20BWn-PqDJ4/s20/emoji-E404.png');
+  font-size: 1.2em;
+}
 
+dt {
+  font-size: 1.2em;
+}
+
+.guide-border {
+  border: solid;
 }
