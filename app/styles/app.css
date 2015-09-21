@@ -4,3 +4,10 @@ html {
   font-family: 'antoniolight', sans-serif;
   background: white;
 }
+
+.container {
+  width: 80%;
+}
+h1 {
+  text-align: center;
+}
